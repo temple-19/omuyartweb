@@ -12,13 +12,13 @@ function App() {
   return (
     <div>
       <section className="min-h-screen">
-        <nav className="py-10 mb-12 flex justify-between dark:text-white">
+        <nav className="py-10 mb-12 flex justify-between text-white">
           <h1 className="text-xl pl-5">OmuyaG.art</h1>
           <ul className="flex items-center pr-5">
             <li>
               <a
                 className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                href="/"
+                href="https://x.com/omuya_?s=21&t=8qVNJ9_XZSJwyHOeEYyggQ"
               >
                 Get Your Potrait
               </a>
@@ -32,13 +32,26 @@ function App() {
           <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-200 md:text-6xl">
             Omuya Eneyire .G
           </h2>
-          <h3 className="text-2xl py-2 dark:text-white md:text-3xl">Artist</h3>
-          <p className="text-md py-5 leading-8  dark:text-gray-100 max-w-xl mx-auto md:text-xl">
+          <h3 className="text-2xl py-2 text-white md:text-3xl">Artist</h3>
+          <p className="text-md py-5 leading-8   text-white max-w-xl mx-auto md:text-xl">
             Hi there! Welcome to my portrait gallery. Scroll down to explore.
           </p>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-            <AiFillTwitterCircle />
-            <AiFillInstagram />
+            <a
+              href="https://x.com/omuya_?s=21&t=8qVNJ9_XZSJwyHOeEYyggQ"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillTwitterCircle />
+            </a>
+
+            <a
+              href="https://instagram.com/omuyag.art?igshid=OGQ5ZDc2ODk2ZA=="
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillInstagram />
+            </a>
           </div>
           <a
             href="https://templecodes.netlify.app/project"
@@ -53,10 +66,10 @@ function App() {
 
       <section className="py-10 pb-10">
         <div>
-          <h3 className="text-3xl py-1 dark:text-white pl-8">
+          <h3 className="text-3xl py-1  text-white pl-8">
             Portrait Drawing Service
           </h3>
-          <p className="text-md py-2 leading-8 pl-8 text-gray-800 dark:text-gray-200">
+          <p className="text-md py-2 leading-8 pl-8 text-white">
             My services include custom hand-drawn portraits and digital
             illustrations. Let's bring your ideas to life in beautiful drawings.
           </p>
