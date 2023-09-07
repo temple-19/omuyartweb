@@ -46,7 +46,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            createdbyTemple
+            createdbyTemple.
           </a>
         </div>
       </section>
