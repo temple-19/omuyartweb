@@ -13,12 +13,12 @@ function App() {
     <div>
       <section className="min-h-screen">
         <nav className="py-10 mb-12 flex justify-between text-white">
-          <h1 className="text-xl pl-5">OmuyaG.art</h1>
+          <h1 className="text-xl pl-5">Omuya G</h1>
           <ul className="flex items-center pr-5">
             <li>
               <a
                 className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                href="https://x.com/omuya_?s=21&t=8qVNJ9_XZSJwyHOeEYyggQ"
+                href="https://instagram.com/omuyag.art?igshid=OGQ5ZDc2ODk2ZA=="
               >
                 Get Your Potrait
               </a>
@@ -30,7 +30,7 @@ function App() {
             <img src={pic} layout="fill" objectFit="cover" alt="avatar" />
           </div>
           <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-200 md:text-6xl">
-            Omuya Eneyire .G
+            Omuya Godwin
           </h2>
           <h3 className="text-2xl py-2 text-white md:text-3xl">Artist</h3>
           <p className="text-md py-5 leading-8   text-white max-w-xl mx-auto md:text-xl">
